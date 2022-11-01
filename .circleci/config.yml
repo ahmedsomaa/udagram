@@ -56,9 +56,7 @@ jobs:
       - checkout
       - run:
           name: Deploy App
-          command: echo "Deploy Backend"
-            eb deploy udagram-api-env
-            echo "Deploy Frontend"
+          command: echo "Deploy Frontend"
             aws s3 cp --recursive --acl public-read ./www s3://udagram-client/
 workflows:
   udagram:
