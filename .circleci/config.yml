@@ -45,11 +45,6 @@ jobs:
           command: |
             echo "Build the backend API"
             npm run api:build
-      - run:
-          name: Front-End Unit Testing
-          command: |
-            echo "Running the frontend unit tests"
-            npm run frontend:test
   deploy:
     docker:
       - image: 'cimg/base:stable'
