@@ -2,18 +2,20 @@
 
 ## Backend
 
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+- [Node v14.15.1 (LTS)](https://nodejs.org/en/blog/release/v14.15.1/) - Javascript Runtime.
 
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+- [npm 6.14.8 (LTS)](https://www.npmjs.com/package/npm/v/6.14.8) - Node Package Manager to manage project dependencies.
 
-- AWS CLI v2.
+- [Sequalize](https://sequelize.org/) - ORM for Nodejs and PostgreSQL.
 
-- A RDS database running Postgres.
+- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) - AWS CLI for managing AWS resources.
 
-- A S3 bucket for hosting backend code.
+- [AWS RDS](https://aws.amazon.com/rds/) - A database running Postgres.
+
+- [AWS S3](https://aws.amazon.com/s3/) - To host backend code.
 
 ## Frontend
 
-- Angular.
-- AWS CLI v2.
-- A S3 bucket to host build code.
+- [Angular](https://angular.io/) - Single Page Application Framework
+- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) - AWS CLI for managing AWS resources.
+- [AWS S3](https://aws.amazon.com/s3/) - To host frontend built code.
