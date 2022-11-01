@@ -34,9 +34,16 @@ This project has a circle ci pipeline for building and deploying both the fronte
 
   ```bash
   AWS_ACCESS_KEY_ID=
+  AWS_ANGULAR_BUCKET=
   AWS_DEFAULT_REGION=
   AWS_PROFILE=
   AWS_SECRET_ACCESS_KEY=
+  JWT_SECRET=
+  POSTGRES_DB=
+  POSTGRES_HOST=
+  POSTGRES_PASSWORD=
+  POSTGRES_PORT=
+  POSTGRES_USERNAME=
   ```
 
   those are required for the `circleci/aws-elastic-beanstalk@2.0.1` & `circleci/aws-cli@3.1.1` orbs to run successfully.
