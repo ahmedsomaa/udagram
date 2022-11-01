@@ -6,8 +6,6 @@ A full stack application built with node, postgresql & Angular hosted on Amazon 
 
 ## Tech Stack
 
----
-
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
@@ -18,19 +16,13 @@ A full stack application built with node, postgresql & Angular hosted on Amazon 
 
 ## Architecture
 
----
-
 ![Project Architecture](./images/arch.jpg)
 
 ## Project Dependecies
 
----
-
 See [dependencies.md](./docs/dependencies.md) for more details.
 
 ## Run Locally
-
----
 
 The project provides a global [package.json](./package.json) that comes with scripts to run, build and deploy project:
 
@@ -59,13 +51,9 @@ The project provides a global [package.json](./package.json) that comes with scr
 
 ## Deployment Infrastructure and Pipeline
 
----
-
 See [deployment.md](./docs/deployment.md) for more details.
 
 ## Screenshots
-
----
 
 Screenshots are divided into 2 categories:
 
@@ -73,7 +61,5 @@ Screenshots are divided into 2 categories:
 - [CircleCi Pipeline](./images/screenshots/circleci/)
 
 ## License
-
----
 
 [License](LICENSE.txt)
