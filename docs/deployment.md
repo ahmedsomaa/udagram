@@ -31,14 +31,21 @@ This project has a circle ci pipeline for building and deploying both the fronte
 ### Pipeline Process
 
 - Configure the pipeline settings to add the following environment variables:
+
   ```bash
   AWS_ACCESS_KEY_ID=
   AWS_DEFAULT_REGION=
   AWS_PROFILE=
   AWS_SECRET_ACCESS_KEY=
   ```
+
   those are required for the `circleci/aws-elastic-beanstalk@2.0.1` & `circleci/aws-cli@3.1.1` orbs to run successfully.
-- Setting up orbs to be used in the pipeline which are `circleci/node@5.0.2` to setup and install nodejs environment, `circleci/aws-elastic-beanstalk@2.0.1` to setup and install the elasticbean stalk CLI and `circleci/aws-cli@3.1.1` to setup and install the AWS CLI.
+
+  ![Project Configuration](../images//screenshots/circleci/config.png)
+
+- Setting up orbs to be used in the pipeline which are `circleci/node@5.0.2` to setup and install nodejs environment,
+  `circleci/aws-elastic-beanstalk@2.0.1` to setup and install the elasticbean stalk CLI and `circleci/aws-cli@3.1.1` to
+  setup and install the AWS CLI.
 - Setup the build stage to do the following:
   - Install the frontend dependencies.
   - Install the backend dependencies.
