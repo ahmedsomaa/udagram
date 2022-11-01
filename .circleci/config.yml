@@ -55,14 +55,9 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: Setup AWS Credentials
-          command:
-            mkdir ~/.aws && echo "[profile eb-cli]\naws_access_key_id = ${AWS_ACCESS_KEY_ID}\naws_secret_access_key
-            = ${AWS_SECRET_ACCESS_KEY}" > ~/.aws/config
-      - run:
           name: Deploy App
           command: echo "Deploy Backend"
-            eb deploy udagram-api-env-dev
+            eb deploy udagram-api-env
             echo "Deploy Frontend"
             aws s3 cp --recursive --acl public-read ./www s3://udagram-client/
 workflows:
