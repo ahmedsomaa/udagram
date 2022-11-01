@@ -57,7 +57,7 @@ jobs:
       - run:
           name: Deploy App
           command: echo "Deploy Frontend"
-            aws s3 cp --recursive --acl public-read ./www s3://udagram-client/
+            npm run frontend:deploy
 workflows:
   udagram:
     jobs:
