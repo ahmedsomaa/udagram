@@ -48,7 +48,6 @@ jobs:
   deploy:
     docker:
       - image: 'cimg/base:stable'
-      # more setup needed for aws, node, elastic beanstalk
     steps:
       - node/install:
           node-version: '14.15'
@@ -57,10 +56,11 @@ jobs:
       - checkout
       - run:
           name: Deploy App
-          # TODO: Install, build, deploy in both apps
           command: |
-            echo "# TODO: Install, build, deploy in both apps"
-
+            echo "Deploy Backend"
+            eb deploy udagram-api-env-dev
+            echo "Deploy Frontend"
+            aws s3 cp --recursive --acl public-read ./www s3://udagram-client/
 workflows:
   udagram:
     jobs:
