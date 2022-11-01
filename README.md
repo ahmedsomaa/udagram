@@ -59,8 +59,21 @@ The project provides a global [package.json](./package.json) that comes with scr
 
 ## Deployment Infrastructure and Pipeline
 
+---
+
 See [deployment.md](./docs/deployment.md) for more details.
 
+## Screenshots
+
+---
+
+Screenshots are divided into 2 categories:
+
+- [AWS Resources Configuration](./images/screenshots/aws-configuration/)
+- [CircleCi Pipeline](./images/screenshots/circleci/)
+
 ## License
+
+---
 
 [License](LICENSE.txt)
