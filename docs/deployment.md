@@ -24,8 +24,6 @@ The following diagram shows the communication between the three layers.
 
 ## Pipeline
 
----
-
 This project has a circle ci pipeline for building and deploying both the frontend and backend applications.
 
 ![Pipeline](../images/screenshots/circleci/ci-last-build.jpg)
