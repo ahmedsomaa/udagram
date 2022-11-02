@@ -2,7 +2,7 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ahmedsomaa/udagram/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ahmedsomaa/udagram/tree/master)
 
-A full stack application built with node, postgresql & Angular hosted on Amazon Web Services using CircelCi. The backend API is running [here](http://udagram-api-env-dev.us-east-1.elasticbeanstalk.com) and the frontend is running [here](http://udagram-client.s3-website-us-east-1.amazonaws.com).
+A full stack application built with node, postgresql & Angular hosted on Amazon Web Services using CircelCi.
 
 ## Tech Stack
 

@@ -4,11 +4,11 @@
 
 The application is modeled using the client server architecture where:
 
-- The angular client is hosted on AWS S3 located [here](http://udagram-client.s3-website-us-east-1.amazonaws.com).
+- The angular client is hosted on AWS S3.
 
   ![Angular Client](../images/screenshots/aws-configuration/s3-client.jpg)
 
-- The server application is developed using node.js, express and typescript hosted [here](http://udagram-api-env-dev.us-east-1.elasticbeanstalk.com).
+- The server application is developed using node.js, express and typescript.
 
   ![Node Server](../images/screenshots/aws-configuration/eb-up.jpg)
 
